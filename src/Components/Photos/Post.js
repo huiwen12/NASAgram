@@ -10,10 +10,11 @@ import Avatar from '@mui/material/Avatar'
 import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import LikeButton from './Components/Heart'
-import { Grid } from '@mui/material'
-import ShareButton from './Components/Share'
-import { StyledCard } from './styles'
+import LikeButton from './Heart'
+import Grid from '@mui/material/Grid'
+import ShareButton from './Share'
+import { StyledCard } from '../../Containers/Photos/styles'
+// import { Link } from 'react-router-dom'
 
 const Post = ({ title, copyright, date, explanation, url, mediaType }) => {
   const [expanded, setExpanded] = React.useState(false)
@@ -65,6 +66,7 @@ const Post = ({ title, copyright, date, explanation, url, mediaType }) => {
         </CardMedia>
       </a>
       <CardContent>
+        {/* <Link to={`/photos/${date}`} >Link </Link> */}
         <Typography variant="paragraph" color="text.primary">
           {title}
         </Typography>

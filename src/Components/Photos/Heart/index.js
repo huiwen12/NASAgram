@@ -11,7 +11,7 @@ const LikeButton = () => {
     <>
     <div>
       <StyledButton onClick={() => setLike((prevLike) => !prevLike)}>
-        {notlike ? <FavoriteBorderIcon /> :  <FavoriteIcon />}
+        {notlike ? <FavoriteBorderIcon />: <FavoriteIcon />}
       </StyledButton>
     </div>
     </>

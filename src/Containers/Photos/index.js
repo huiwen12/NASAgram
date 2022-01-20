@@ -1,6 +1,7 @@
 import React, { useState, useEffect }from 'react'
-import Post from './Post';
+import Post from '../../Components/Photos/Post';
 import { Grid } from '@mui/material';
+import { PrettyParagraph } from './styles';
 const Photos = () => {
 
   const [photos, setPhoto] = useState([])
@@ -23,7 +24,7 @@ const Photos = () => {
 if (loading) {
   return (
     <>
-      <p>Loading content from NASA...</p>
+      <PrettyParagraph>Loading content from NASA...</PrettyParagraph>
     </>
   )
 }
@@ -46,7 +47,8 @@ if (loading) {
             copyright={photo.copyright}
             date={photo.date}
             explanation={photo.explanation}
-            key={Math.floor(Math.random() * 500000)}
+            key={photo.date}
+            // key={Math.floor(Math.random() * 500000)}
             mediaType={photo.media_type}
             />
         ))}

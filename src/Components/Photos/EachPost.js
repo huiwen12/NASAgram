@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useParams }from 'react'
 import './styles.css'
 import Post from './Post';
-import Navbar from '../Navbar';
+import Navbar from '../../../Components/Navbar';
+import { PrettyParagraph } from '../../Containers/Photos/styles';
 
 
 const EachPost = () => {
@@ -26,7 +27,7 @@ const EachPost = () => {
 if (loading) {
   return (
     <>
-      <p>Loading content from NASA...</p>
+      <PrettyParagraph style={{color:' white'}}>Loading content from NASA...</PrettyParagraph>
     </>
   )
 }
