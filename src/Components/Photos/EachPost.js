@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useParams }from 'react'
+import React, { useState, useEffect }from 'react'
 import './styles.css'
 import Post from './Post';
 import Navbar from '../../../Components/Navbar';
@@ -9,7 +9,11 @@ const EachPost = () => {
 
   const [photo, setPhoto] = useState([])
   const [loading, setLoading] = useState([true])
-  let { date } = useParams();
+  // choosedate is the date returned from the calendar
+  const [chooseDate,setDate ] = useState()
+  // let { date } = useParams();
+  console.log(chooseDate)
+
   useEffect(() => {
     const nasaURL = `https://api.nasa.gov/planetary/apod?api_key=${process.env.REACT_APP_NASA_API_KEY}`
 

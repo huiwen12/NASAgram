@@ -1,27 +1,29 @@
 import React from 'react'
-import Navbar from './Components/Navbar/index';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Navbar from './Components/Navbar/index'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Photos from './Containers/Photos/index'
-import Search from './Containers/Search';
+import Login from './Containers/Login'
+import client from './client'
+import ApolloProvider from "@apollo/react-hooks"
 
-function App() {
+export default function App () {
   return (
-    <div className="App">
-    <BrowserRouter basename="spacestagram">
+    <>
+    <Router>
+    <ApolloProvider client={client}>
+        <div className="App">
+          <Switch>
+            <Route path="/photos" component={Photos} />
+            <Route path="/" component={Login} />
+          </Switch>
+          </div>
+    </ApolloProvider>
+    </Router>
     <Navbar />
-    <Switch>
-      <Route path="/search">
-        <Search />
-      </Route>
-      <Route path="/">
-        <Photos />
-      </Route>
-    </Switch>
-  </BrowserRouter>
-
+    </>
   
-    </div>
+    
   );
 }
 
-export default App;
+// export default App;

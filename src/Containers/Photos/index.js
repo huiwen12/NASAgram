@@ -1,7 +1,7 @@
 import React, { useState, useEffect }from 'react'
-import Post from '../../Components/Photos/Post';
-import { Grid } from '@mui/material';
-import { PrettyParagraph } from './styles';
+import Post from '../../Components/Photos/Post'
+import { Grid } from '@mui/material'
+import { PrettyParagraph } from './styles'
 const Photos = () => {
 
   const [photos, setPhoto] = useState([])

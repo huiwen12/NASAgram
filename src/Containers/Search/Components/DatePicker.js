@@ -10,6 +10,8 @@ const MakeDatePicker = () => {
     <DatePicker 
       selected={startDate} 
       onChange={(date) => setStartDate(date)}
+
+      // submit on click --> add a submit button with function
     />
   );
 };

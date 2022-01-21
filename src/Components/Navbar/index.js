@@ -8,9 +8,9 @@ const Navbar = () => (
         <NavLink to='/'> 
             <Logo />
         </NavLink>
-        <NavLink to='/search'> 
+        {/* <NavLink to='/search'> 
             Search
-        </NavLink> 
+        </NavLink>  */}
      </Container>
 )
 
