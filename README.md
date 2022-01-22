@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Running this project on a local host will require the repo for the backend
+## Running this project on a local host will require backend repo
 You can find the backend files at https://github.com/huiwen12/bootcamp-backend-starter. Both repos must simultaneously run on local host by executing
 ### `npm run dev`
 
