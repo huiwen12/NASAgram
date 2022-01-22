@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { NavLink as Link } from "react-router-dom"
+import styled from 'styled-components'
+import { NavLink as Link } from 'react-router-dom'
 
 export const Container = styled.div`
     height: 100px;
@@ -8,7 +8,6 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     background: pink;
-
 `
 
 export const NavLink = styled(Link).attrs()`
@@ -18,7 +17,6 @@ export const NavLink = styled(Link).attrs()`
     text-decoration: none;
     font-family: monospace;
     letter-spacing: 5px;
-
 
     &:hover{
         color: beige;

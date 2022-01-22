@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const StyledCard = styled.div`
   &:hover{
@@ -10,4 +10,5 @@ export const PrettyParagraph = styled.p`
   color: white;
   font-size: 20px;
   text-align: center;
+  font-family: monospace;
 `
