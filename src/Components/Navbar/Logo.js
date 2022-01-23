@@ -7,7 +7,7 @@ const Logo = () => (
       <RocketLaunchRoundedIcon />
     </div>
     <div className="siteName">
-      NASASTAGRAM
+      NASAGRAM
     </div>
   </center>
 )
