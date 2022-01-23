@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The development of NASAgram is still in progress, and I will be adding more functionality and styling to the app. A video demo of the current status of the app can be accessed at https://harvard.zoom.us/rec/play/wznln_G0vPXDYBUTr1wB55PfNycV9jR1IfuMl45p5z1JT_AIUA-nuQQ8JoNvHAhIpTdvD22fTwJJSg.1jBElWPCLBZNU79E?autoplay=true&startTime=1642900804000. 
 
 <br />
-What I look forward to adding:  <br/>
+Since the first stage of this project was implemented in the span of 3 days, here's what I look forward to adding in the next iteration:  <br/>
 - include a mutation to save each user's liked posts to the backend database in the table called "likes" <br/>
 - implement the Favorites page to display the user's liked posts and filter liked posts by the date listed on each astronomy picture of the day post<br />
 - add the register page on the frontend <br/>
