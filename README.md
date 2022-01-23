@@ -12,7 +12,7 @@ What I look forward to adding:  <br/>
 - include a mutation to save each user's liked posts to the backend database in the table called "likes" <br/>
 - implement the Favorites page to display the user's liked posts and filter liked posts by the date listed on each astronomy picture of the day post<br />
 - add the register page on the frontend <br/>
-- allow users ot change their passwords <br/>
+- allow users to change their passwords <br/>
  
 ## Running this project on a local host will require backend repo
 You can find the backend repo at https://github.com/huiwen12/bootcamp-backend-starter. To view the project, both repos must run simultaneously on your local host by executing
