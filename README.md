@@ -1,5 +1,5 @@
 # NASAgram Frontend
-A full-stack project (React, GraphQL/Apollo, Node.js, PostgreSQL) that utilitzes NASA Astronomy Picture of the DAT API to generate a Instagram-like space photo app.
+A full-stack project (React, GraphQL/Apollo, Node.js, PostgreSQL) that utilitzes NASA Astronomy Picture of the Day API to generate a Instagram-like space photo app.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and Material UI (such as Material UI icons) is utilized to add clean styling to many components. The current repo is the frontend repo of NASAgram. To run this NASAgram on a local host, it's necessary to also clone the backend repo of this project (https://github.com/huiwen12/bootcamp-backend-starter).
 
