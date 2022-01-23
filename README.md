@@ -1,7 +1,21 @@
 # NASAgram Frontend
+A full-stack project (React, GraphQL/Apollo, Node.js, PostgreSQL) that utilitzes NASA Astronomy Picture of the DAT API to generate a Instagram-like space photo app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and Material UI (such as Material UI icons) is utilized to add clean styling to many components. The current repo is the frontend repo of NASAgram. To run this NASAgram on a local host, it's necessary to also clone the backend repo of this project (https://github.com/huiwen12/bootcamp-backend-starter).
 
+### Progress Update
+
+The development of NASAgram is still in progress, and I will be adding more functionality and styling to the app. A video demo of the current status of the app can be accessed at https://harvard.zoom.us/rec/play/wznln_G0vPXDYBUTr1wB55PfNycV9jR1IfuMl45p5z1JT_AIUA-nuQQ8JoNvHAhIpTdvD22fTwJJSg.1jBElWPCLBZNU79E?autoplay=true&startTime=1642900804000. 
+
+<br />
+What I look forward to adding: 
+- include a mutation to save each user's liked posts to the backend database in the table called "likes"
+- implement the Favorites page to 
+    *display the user's liked posts 
+    *allow the user to filter their liked posts by the date listed on each astronomy picture of the day post*
+- add the register page on the frontend
+- allow users ot change their passwords
+ 
 ## Running this project on a local host will require backend repo
 You can find the backend repo at https://github.com/huiwen12/bootcamp-backend-starter. To view the project, both repos must run simultaneously on your local host by executing
 ### `npm run dev`
