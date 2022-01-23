@@ -28,3 +28,10 @@ export const Label = styled.label`
   margin-bottom: 01.em;
   margin-top: 0.5em;
 `
+
+export const SubText = styled.p`
+  font-size: 1em;
+  color: #808080;
+  font-style: italic;
+  text-align: center;
+`

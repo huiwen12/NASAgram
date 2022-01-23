@@ -1,31 +1,30 @@
+/* eslint-disable */
+
 import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
-import { CHECKTOKEN } from './graphql'
 import { useQuery } from '@apollo/react-hooks'
 import { Grid } from '@mui/material'
+import { CHECKTOKEN } from './graphql'
 import Post from '../../Components/Photos/Post'
 import { PrettyParagraph } from './styles'
 import BottomNav from '../../Components/BottomNav'
+
 // const jwt = require('jsonwebtoken')
 // add graphql
-//usequery -- if error --> redirect
+// usequery -- if error --> redirect
 // if data exists and has id --> do nothing
 
 const Photos = () => {
   const history = useHistory()
-  // const token = localStorage.getItem('token')
-  // if (!token) {
-  //   history.push('/')
-  // }
 
-  const {loading:token, error, data} = useQuery(CHECKTOKEN, {
+  const { loading: token, error, data } = useQuery(CHECKTOKEN, {
     onError: () => {
       history.push('/')
     }  
   }) 
   console.log(error)
-  //day 9 slides
-  //on completed and on error 
+  // day 9 slides
+  // on completed and on error 
   // const [login] = useMutation(LOGIN, {
   //   variables: {
   //     email,

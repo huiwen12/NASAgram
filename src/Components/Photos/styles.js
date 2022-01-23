@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const StyledButton = styled.button`
   background-color: pink;
@@ -10,6 +10,4 @@ export const StyledButton = styled.button`
   &:hover{
     background-color: #FFDEED;
   }
-
 `
-

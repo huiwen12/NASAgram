@@ -6,6 +6,7 @@ import Photos from './Containers/Photos/index'
 import Login from './Containers/Login'
 import client from './client'
 import Favorites from './Containers/Favorites'
+import Profile from './Containers/Profile'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
             <Switch>
               <Route path="/photos" component={Photos} />
               <Route path="/favorites" component={Favorites} />
+              <Route path="/profile" component={Profile} />
               <Route path="/" component={Login} />
             </Switch>
           </div>

@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom'
 import { BottomNavigation, BottomNavigationAction } from '@mui/material'
 import HomeIcon from '@mui/icons-material/Home'
 import FavoriteIcon from '@mui/icons-material/Favorite'
+import PersonIcon from '@mui/icons-material/Person'
 
 const BottomNav = () => {
   const [value, setValue] = useState('/')
@@ -31,6 +32,7 @@ const BottomNav = () => {
       <BottomNavigation value={value} onChange={handleChange}>
         <BottomNavigationAction label="Feed" value="photos" icon={<HomeIcon />} />
         <BottomNavigationAction label="Favorites" value="favorites" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="profile" value="profile" icon={<PersonIcon />} />
       </BottomNavigation>
     </>
   )

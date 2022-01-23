@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import * as React from 'react'
 // import React from 'react'
 import { styled } from '@mui/material/styles'
@@ -11,13 +13,14 @@ import Avatar from '@mui/material/Avatar'
 import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import LikeButton from './Heart'
 import Grid from '@mui/material/Grid'
+import LikeButton from './Heart'
 import ShareButton from './Share'
 import { StyledCard } from '../../Containers/Photos/styles'
 // import { Link } from 'react-router-dom'
 
 const Post = ({ title, copyright, date, explanation, url, mediaType }) => {
+  
   const [expanded, setExpanded] = React.useState(false)
 
   const handleExpandClick = () => {
@@ -26,11 +29,11 @@ const Post = ({ title, copyright, date, explanation, url, mediaType }) => {
 
 
   if (!copyright) {
-    copyright = "NASA"
+    copyright = 'NASA'
   }
 
   const ExpandMore = styled((props) => {
-    const { expand, ...other } = props
+    const { expand, ...other } = props;
     return <IconButton {...other} />
   })(({ theme, expand }) => ({
     transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',

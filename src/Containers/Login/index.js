@@ -5,7 +5,7 @@ import { Button, TextField } from '@mui/material'
 import LoginIcon from '@mui/icons-material/Login'
 import { LOGIN } from './graphql'
 import {
-  Container, LoginContainer,
+  Container, LoginContainer, SubText,
 } from './styles'
 
 const Login = () => {
@@ -49,6 +49,8 @@ const Login = () => {
           style={{
             fontFamily: 'monospace',
             margin: '1em',
+            backgroundColor: '#fff1f1',
+            boxShadow: '3px 3px 15px #e798ae',
           }}
           color="secondary"
           startIcon={<LoginIcon />}
@@ -56,6 +58,7 @@ const Login = () => {
         >
           Log in
         </Button>
+        <SubText>Register for a new account here</SubText>
       </LoginContainer>
     </Container>
   )
