@@ -11,8 +11,8 @@ The development of NASAgram is still in progress, and I will be adding more func
 What I look forward to adding:  <br/>
 - include a mutation to save each user's liked posts to the backend database in the table called "likes" <br/>
 - implement the Favorites page to <br/>
-    *display the user's liked posts  <br/>
-    *allow the user to filter their liked posts by the date listed on each astronomy picture of the day post*  <br/>
+      *display the user's liked posts  
+      *allow the user to filter their liked posts by the date listed on each astronomy picture of the day post
 - add the register page on the frontend <br/>
 - allow users ot change their passwords <br/>
  
