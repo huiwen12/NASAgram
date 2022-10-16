@@ -7,11 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 https://harvard.zoom.us/rec/play/wznln_G0vPXDYBUTr1wB55PfNycV9jR1IfuMl45p5z1JT_AIUA-nuQQ8JoNvHAhIpTdvD22fTwJJSg.1jBElWPCLBZNU79E?autoplay=true&startTime=1642900804000. 
 
 <br />
-Since the first stage of this project was implemented in the span of 3 days, here's what I look forward to adding in the next iteration:  <br/>
-- include a mutation to save each user's liked posts to the backend database in the table called "likes" <br/>
-- implement the Favorites page to display the user's liked posts and filter liked posts by the date listed on each astronomy picture of the day post<br />
-- add the register page on the frontend <br/>
-- allow users to change their passwords <br/>
+This project was implemented in the span of 3 days for a bootcamp.
  
 ## Running this project on a local host will require backend repo
 You can find the backend repo at https://github.com/huiwen12/bootcamp-backend-starter. To view the project, both repos must run simultaneously on your local host by executing
