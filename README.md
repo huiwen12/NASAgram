@@ -3,9 +3,8 @@ A full-stack project (React, GraphQL/Apollo, Node.js, PostgreSQL) that utilitzes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and Material UI (such as Material UI icons) is utilized to add clean styling to many components. The current repo is the frontend repo of NASAgram. To run this NASAgram on a local host, it's necessary to also clone the backend repo of this project (https://github.com/huiwen12/bootcamp-backend-starter).
 
-### Progress Update
-
-The development of NASAgram is still in progress, and I will be adding more functionality and styling to the app. A video demo of the current status of the app can be accessed at https://harvard.zoom.us/rec/play/wznln_G0vPXDYBUTr1wB55PfNycV9jR1IfuMl45p5z1JT_AIUA-nuQQ8JoNvHAhIpTdvD22fTwJJSg.1jBElWPCLBZNU79E?autoplay=true&startTime=1642900804000. 
+### Video Demo
+https://harvard.zoom.us/rec/play/wznln_G0vPXDYBUTr1wB55PfNycV9jR1IfuMl45p5z1JT_AIUA-nuQQ8JoNvHAhIpTdvD22fTwJJSg.1jBElWPCLBZNU79E?autoplay=true&startTime=1642900804000. 
 
 <br />
 Since the first stage of this project was implemented in the span of 3 days, here's what I look forward to adding in the next iteration:  <br/>
